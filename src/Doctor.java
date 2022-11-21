@@ -46,10 +46,8 @@ public class Doctor extends Person implements PersonAble{
     }
 
     @Override
-    public long[] getPeopleOfAllAges(Person[] people) {
-        for (Person person : people) {
-            System.out.println(person);
-        }
+    public long[] getPeopleOfAllAges() {
+        System.out.println(getAge());
         return new long[0];
     }
 }

@@ -46,7 +46,8 @@ public class Driver extends Person implements PersonAble{
     }
 
     @Override
-    public long[] getPeopleOfAllAges(Person[] people) {
+    public long[] getPeopleOfAllAges() {
+        System.out.println(getAge());
         return new long[0];
     }
 }

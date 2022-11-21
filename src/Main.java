@@ -33,5 +33,7 @@ public class Main {
         doctor.getPhoneNumberAndEmail();
         doctor.getDateOfBrith();
         doctor.getPeopleOfAllAges();
+
+        System.out.println(programmer.getAge()+" "+ driver.getAge()+" "+ doctor.getAge());
     }
 }
