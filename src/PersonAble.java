@@ -14,5 +14,5 @@ public interface PersonAble {
 
     String getPhoneNumberAndEmail();
 
-    long[] getPeopleOfAllAges();
+    long[] getPeopleOfAllAges(Person [] people);
 }

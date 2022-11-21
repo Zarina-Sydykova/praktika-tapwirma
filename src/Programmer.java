@@ -47,7 +47,7 @@ public class Programmer extends Person implements PersonAble{
     }
 
     @Override
-    public long[] getPeopleOfAllAges() {
+    public long[] getPeopleOfAllAges(Person [] people) {
         System.out.println(getAge());
 
 
